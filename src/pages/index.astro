@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import { trySerializeLocals } from 'astro/middleware';
+---
+
+<Layout title="SHiT-8">
+	<main class="w-full min-h-screen flex justify-center items-center">
+		<div class="flex flex-col gap-y-4">
+			<h1>DOWNLOAD now !!!!</h1>
+			<a href="/shit-8.jar" target="_blank" download="Gean" rel="noreferrer">
+				<div class="flex w-5">
+					<img src="/arrow-down-tray.jpg" alt="wtf" width="200" class="rounded-xl">
+				</div>
+			</a>
+			<p class="text-red-500">java -jar --module-path {"{"}javafx lib path{"}"} --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media shit8th.jar</p>
+			<a href="https://gluonhq.com/products/javafx/">Click here : https://gluonhq.com/products/javafx/</a>
+		</div>
+	</main>
+</Layout>
